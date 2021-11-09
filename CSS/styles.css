@@ -70,5 +70,6 @@ a:hover{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
-#sprints{box-shadow: none; width: 100%; height: 1000px;}
+.sprint-1 {box-shadow: none; width: 100%; height: 1000px;}
+.sprint-2 {box-shadow: none; width: 100%; height: 1000px;}
 }
