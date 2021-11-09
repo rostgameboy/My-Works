@@ -65,8 +65,11 @@ a:hover{
     box-shadow: 0 0 20px gray;
     margin: 1%;
 }
-@media only screen
-  and (min-device-width: 500px)
-  and (max-device-width: 992px) {
-    body { line-height: 1.4 }
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+.sprint-1 {height: 700px;}
+.sprint-2 {height: 800px;}
 }
