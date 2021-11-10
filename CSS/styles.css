@@ -3,12 +3,19 @@ body{
     background: radial-gradient(circle, rgba(174,188,238,1) 13%, rgba(190,233,148,1) 100%);
     font-family: sans-serif;
 }
+.body-inner{
+    width: 100%;
+    text-align: center;
+}
 .sprint-1{
     width: 98%;
     height: 585px;
     border-radius: 20px;
     box-shadow: 0 0 20px gray;
     margin: 1%;
+}
+.sprint-inner{
+    text-align: center;
 }
 .cards{
     width: 100%;
@@ -65,17 +72,25 @@ a:hover{
     box-shadow: 0 0 20px gray;
     margin: 1%;
 }
-@media only screen and (min-width: 375px) and (max-width: 1000px) {
+@media only screen and (min-width: 200px) and (max-width: 1000px) {
+    .card{
+        margin-bottom: 8%;
+    }
+    .cards{
+        justify-content: unset;
+        margin-top: 2%;
+        height: auto;
+    }
     .sprint-1{
         box-shadow: none;
         width: 100%;
-        height: 1150px;
-        margin: 0;
+        height: auto;
+        margin: 2%;
     }
     .sprint-2{
         box-shadow: none;
         width: 100%;
-        height: 1600px;
-        margin: 0;
+        height: auto;
+        margin: 2%;
     }
 }
